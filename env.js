@@ -9,7 +9,7 @@ const SCREENSHOT_PATH = path.resolve(__dirname, './screenshot')
 const LOG_PATH = path.resolve(__dirname, './log')
 const LOG_FILE_PATH = path.resolve(LOG_PATH, `Log-${new Date().getTime()}.txt`)
 
-const MAX_ATTEMPTS = 3
+const MAX_ATTEMPTS = 100
 const ATTEMPTS_INTERVAL = 60 * 1000
 
 const REPORT_PAGE_URL = 'https://onewechat.bnu.edu.cn/ncov/wap/default/index'
